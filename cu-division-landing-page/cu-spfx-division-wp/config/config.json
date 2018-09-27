@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cu-spfx-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cuSpfxCarousel/CuSpfxCarouselWebPart.js",
+          "manifest": "./src/webparts/cuSpfxCarousel/CuSpfxCarouselWebPart.manifest.json"
+        }
+      ]
+    },
+    "cu-spfx-jobp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cuSpfxJobp/CuSpfxJobpWebPart.js",
+          "manifest": "./src/webparts/cuSpfxJobp/CuSpfxJobpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CuSpfxCarouselWebPartStrings": "lib/webparts/cuSpfxCarousel/loc/{locale}.js",
+    "CuSpfxJobpWebPartStrings": "lib/webparts/cuSpfxJobp/loc/{locale}.js"
+  }
+}

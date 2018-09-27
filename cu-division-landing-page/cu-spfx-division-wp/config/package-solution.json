@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cu-spfx-division-wp-client-side-solution",
+    "id": "f5a5c990-c9a0-49a9-9cc0-edeb70fa013f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/cu-spfx-division-wp.sppkg"
+  }
+}

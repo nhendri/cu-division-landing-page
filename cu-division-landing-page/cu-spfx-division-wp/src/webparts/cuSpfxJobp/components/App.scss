@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@mixin noSelectText() {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cuAppContainer {
+    font-family: 'Raleway', sans-serif;
+    max-width: auto;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    .cuAppTitleRow {
+        text-align: center;
+        cursor: default;
+        @include noSelectText();
+    }
+}
